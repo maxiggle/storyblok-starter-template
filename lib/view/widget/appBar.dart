@@ -6,7 +6,7 @@ import 'package:portfolio/resource/app_class.dart';
 import 'package:portfolio/resource/colors.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
-class ActionBar extends ConsumerStatefulWidget with PreferredSizeWidget {
+class ActionBar extends ConsumerStatefulWidget  {
   final AutoScrollController controller;
 
   ActionBar(this.controller, {Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class ActionBar extends ConsumerStatefulWidget with PreferredSizeWidget {
   @override
   ConsumerState<ActionBar> createState() => _ActionBarState();
 
-  @override
+  // @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
 
