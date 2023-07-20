@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio/controller/cubit/experience_cubit.dart';
 import 'package:portfolio/resource/app_class.dart';
 import '../../resource/colors.dart';
 

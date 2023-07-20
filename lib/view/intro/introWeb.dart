@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/controller/cubit/intro_cubit.dart';
-
 import 'package:scroll_to_index/scroll_to_index.dart';        
 import '../../resource/app_class.dart';
 import '../../resource/colors.dart';
@@ -18,8 +16,6 @@ class IntroWeb extends ConsumerStatefulWidget {
 class _IntroWebState extends ConsumerState<IntroWeb> {
   @override
   Widget build(BuildContext context) {
-    final introText = ref.watch(portfolioHomeContentProvider
-        .select((value) => value.introContent));
     return Container(
       color: Colors.transparent,
       margin: EdgeInsets.only(
