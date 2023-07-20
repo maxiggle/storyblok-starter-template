@@ -9,12 +9,7 @@ class IntroCubit extends Cubit<IntroState> {
   final apiService = ApiService();
 
   Future<void> _onFetchContent() async {
-    // final cache = apiService.cache;
-    // final homeContent = cache.portfolioHomeContent;
-    // emit(state.copyWith(introContent: homeContent));
-    final response = await apiService.getData();
-    final updatedhomeContent = response.portfolioHomeContent;
-    emit(state.copyWith(introContent: updatedhomeContent));
+    //code here
   }
 }
 

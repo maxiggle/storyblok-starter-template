@@ -11,9 +11,7 @@ class ExperienceCubit extends Cubit<ExperienceState> {
   final apiService = ApiService();
 
   Future<void> _onFetchContent() async {
-    // final cache = apiService.cache;
-    // final experienceCache = cache.experienceContent;
-    // emit(state.copyWith(experienceContent: experienceCache));
+   // code here
   }
 }
 
